@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="reg_style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>Registration</header>
+
+            <form action="#">
+                <div class="form first">
+                    <div class="details personal">
+                        <span class="title">Personal Details</span>
+
+                        <div class="fields">
+                            <div class="input-field">
+                                <label>Full Name</label>
+                                <input type="text" placeholder="Enter your Name" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Date of Birth</label>
+                                <input type="date" placeholder="Enter birth date" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Email</label>
+                                <input type="text" placeholder="Enter your Email" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Mobile Number</label>
+                                <input type="number" placeholder="Enter mobile number" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Gender</label>
+                                <select required>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                    <option>Other</option>
+                                  </select>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Occupation</label>
+                                <input type="text" placeholder="Enter your occupation" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="details education">
+                        <span class="title">Education Details</span>
+
+                        <div class="fields">
+                            <div class="input-field">
+                                <label>Name of College</label>
+                                <input type="text" placeholder="Enter college name" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Address</label>
+                                <input type="text" placeholder="Enter college address" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>City</label>
+                                <input type="text" placeholder="Enter city" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>State</label>
+                                <input type="text" placeholder="Enter state" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Country</label>
+                                <input type="text" placeholder="Enter country of education" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Date of Passing</label>
+                                <input type="date" placeholder="Enter passing date" required>
+                            </div>
+                        </div>
+
+                        <button class="nextBtn">
+                            <span class="btnNext">Next</span>
+                            <i class="fa fa-fw fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="form second">
+                    <div class="details address">
+                        <span class="title">Address Details</span>
+
+                        <div class="fields">
+                            <div class="input-field">
+                                <label>Address1</label>
+                                <input type="text" placeholder="Enter present address" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Address2</label>
+                                <input type="text" placeholder="Enter permanent address" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Nationality</label>
+                                <input type="text" placeholder="Enter Nationality" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>State</label>
+                                <input type="text" placeholder="Enter your state" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>District</label>
+                                <input type="text" placeholder="Enter your district" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>PIN code</label>
+                                <input type="number" placeholder="Enter PIN" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="details family">
+                        <span class="title">Family Details</span>
+
+                        <div class="fields">
+                            <div class="input-field">
+                                <label>Father Name</label>
+                                <input type="text" placeholder="Enter father name" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Mother Name</label>
+                                <input type="text" placeholder="Enter mother name" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Siblings</label>
+                                <input type="number" placeholder="Enter number of siblings" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Sibling Name</label>
+                                <input type="text" placeholder="Enter sibling name">
+                            </div>
+
+                            <div class="input-field">
+                                <label>Father's Occupation</label>
+                                <input type="text" placeholder="Enter occupation" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Mother's Occupation</label>
+                                <input type="text" placeholder="Enter occupation" required>
+                            </div>
+                        </div>
+
+                        <div class="buttons">
+                            <div class="backBtn">
+                                <i class="fa fa-fw fa-arrow-right"></i>
+                                <span class="btnText">Back</span>
+                            </div>
+    
+                            <button type="submit" class="btn-success">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+        <script src="reg_script.js"></script>
+    </body>
+</html>
